@@ -28,3 +28,12 @@ function sumArray(thisArray){
   console.table(thisArray);
   console.log('the sum of ' + thisArray + ' is ' + arrayOne);
 }
+console.log('This is the multiplyArray() function!');
+function multiplyArray(thatArray){
+  var arrayTwo = 1;
+  for(var i = 1; i < thatArray.length; i++){
+    arrayTwo = arrayTwo * thatArray[i];
+  }
+  console.table(thatArray);
+  console.log('the product of ' + thisArray + ' is ' + arrayTwo);
+}

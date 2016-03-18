@@ -19,3 +19,12 @@ function sumAndMultiply(m, n, o){
   console.log('The product of ' + m + ' and ' + n + ' an ' + o + ' is ' + multiplyAnswer);
   return [sumAnswer, multiplyAnswer];
 }
+console.log('This is the sumArray() function!');
+function sumArray(thisArray){
+  var arrayOne = 0;
+  for(var i = 0; i < thisArray.length; i++){
+    arrayOne = arrayOne + thisArray[i];
+  }
+  console.table(thisArray);
+  console.log('the sum of ' + thisArray + ' is ' + arrayOne);
+}

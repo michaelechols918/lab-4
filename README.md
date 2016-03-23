@@ -13,3 +13,6 @@ function lab-4
 
 ## The sumArray() Function:
   This takes in an array of numbers as a single argument and then returns the sum of those numbers.
+
+## The multiplyArray() Function:
+This takes in an array of numbers as a single argument and then returns the product of those numbers.
